@@ -3,16 +3,11 @@
 //Idade: Number
 //Possui diploma: Boolean
 
-let nome = "Maria";
-let salario = 3000.00;
-let idade = 20;
-let possuiDiploma = true;
-
 let pessoa = {
-nome: nome,
-salario: salario,
-idade: idade,
-possuiDiploma: possuiDiploma
+nome: "Maria",
+salario: 3000.00,
+idade: 20,
+possuiDiploma: true
 };
 
 console.log("Nome: " + pessoa.nome);
