@@ -1,0 +1,21 @@
+//nome:String
+//salário:NUmber
+//Idade: Number
+//Possui diploma: Boolean
+
+let nome = "Maria";
+let salario = 3000.00;
+let idade = 20;
+let possuiDiploma = true;
+
+let pessoa = {
+nome: nome,
+salario: salario,
+idade: idade,
+possuiDiploma: possuiDiploma
+};
+
+console.log("Nome: " + pessoa.nome);
+console.log("Salário: " + pessoa.salario);
+console.log("Idade: " + pessoa.idade);
+console.log("Possui Diploma: " + pessoa.possuiDiploma);
